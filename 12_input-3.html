@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+    <style>
+        #c1 { 
+            color:blue;   /* 라벨문 다음에 나오는 태그문에 있는 id랑 별개임을 보려고 쓴거. 별개다 실제로.*/
+           }
+
+    </style>
+
+</head>
+
+
+
+
+<body>
+
+    <h1> 체크박스, 라디오버튼 만들기</h1>
+
+    <p>
+        <label for="c1">사과</label>
+        <input type="checkbox" id="c1">
+        <label for="c2">바나나</label>
+        <input type="checkbox" id="c2" checked>
+        <!--checked -> 초기값 체크된 상태-->
+    </p>
+
+    <!--라디오버튼-->
+    <p>
+        <label for="h1">축구</label>
+        <input type="radio" id="h1" name="hobby">
+        <label for="h2">야구</label>
+        <input type="radio" id="h2" name="hobby">
+        <label for="h3">농구</label>
+        <input type="radio" id="h3" name="hobby" checked>
+        <!--radio타입의 input태그는 그룹핑됬을때 하나만 선택된다.-->
+
+
+
+    </p>
+
+
+</body>
+
+</html>
